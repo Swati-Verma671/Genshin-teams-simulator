@@ -1,0 +1,59 @@
+.Dashboard{
+  background-color: lavenderblush;
+  font-family: 'Bebas Neue', cursive;
+}
+.welcome{
+  text-align: center;
+  font-size: 40px;
+  color:black;
+  padding-top: 5%;
+}
+.choose{
+  text-align: center;
+  font-size: 40px;
+  color:black;
+  padding-top: 5%;
+}
+.elements{
+  display: flex;
+  justify-content: space-around;
+}
+button{
+  background-color: white;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 13px;
+  margin: 50px;
+}
+.anemo{
+  background-color: aquamarine;
+  border: 5px solid aquamarine;
+}
+.geo{
+  background-color: yellow;
+  border: 5px solid yellow;
+}
+.electro{
+  background-color: blueviolet;
+  border: 5px solid blueviolet;
+}
+.pyro{
+  background-color: red;
+  border: 5px solid red;
+}
+.hydro{
+  background-color: aqua;
+  border: 5px solid aqua;
+}
+.cryo{
+  background-color: aliceblue;
+  border: 5px solid aliceblue;
+}
+.nota{
+  border: 5px solid white;
+}
+p{
+  text-align: center;
+  font-size: 50px;
+}
