@@ -84,7 +84,7 @@ class App extends React.Component{
     
     
     const count = this.state.count;
-    this.setState({count:count+1})
+    this.setState({count:count+4})
   }
 
   reset=()=>{
@@ -106,8 +106,9 @@ class App extends React.Component{
         return (
     
           <div className='Dashboard'>
+            
             <div className='welcome'>Welcome to Genshin Impact teams generator. <br />This app will pick out a random team for you based on the elements you pick.</div>
-            <div className='choose'>Choose an element: (If you want it to random then pick none of the above). Click reset to make a new team.</div>
+            <div className='choose'>Choose an element: (If you want it to random then pick Surprise). Click reset to make a new team.</div>
             <div className='elements'>
               <button className="anemo" onClick={this.anemo}>Anemo</button>
               <button className='geo' onClick={this.geo}>Geo</button>
@@ -115,12 +116,10 @@ class App extends React.Component{
               <button className='pyro' onClick={this.pyro} >Pyro</button>
               <button className='cryo' onClick={this.cryo} >Cryo</button>
               <button className='hydro' onClick={this.hydro} >Hydro</button>
-              <button className='nota' onClick={this.nota}>NOTA</button>
-              <button className='reset' onClick={this.reset}>Reset</button>
+              <button className='nota' onClick={this.nota} disabled={this.state.count!==0}>Surprise</button>
+              <button className='reset' onClick={this.reset} disabled={this.state.count<4}>Reset</button>
               
             </div>
-            
-            
             <p>{this.state.item0}</p>
             <p>{this.state.item1}</p>
             <p>{this.state.item2}</p>
@@ -131,7 +130,13 @@ class App extends React.Component{
             <p>{this.state.item7}</p>
             <p>{this.state.item8}</p>
             <p>{this.state.item9}</p>
-            
+            <div className='navbar'>
+              <div className='who'><a href="https://swativerma.herokuapp.com/">Meet the creator</a></div>
+              <div className='where'><a href="https://genshin.hoyoverse.com/en/home">Official game site</a></div>
+            </div>
+            <div className='disclaimer'>
+              I created this Genshin teams simulator for fun and practice. I would keep adding new characters as they are officially announced.
+            </div>
             </div>
           
         );

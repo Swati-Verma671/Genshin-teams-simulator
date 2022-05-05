@@ -1,6 +1,24 @@
+body{
+  background-color: black;
+}
+
 .Dashboard{
   background-color: lavenderblush;
   font-family: 'Bebas Neue', cursive;
+}
+a{
+  color:lavenderblush;
+  text-decoration: none;
+}
+a:hover{
+  color:lavender;
+}
+.navbar{
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  font-size:30px;
+  padding:50px;
 }
 .welcome{
   text-align: center;
@@ -52,6 +70,15 @@ button{
 }
 .nota{
   border: 5px solid white;
+}
+.reset{
+  background-color: black;
+  color: lavenderblush;
+  border: 5px solid black;
+}
+.disclaimer{
+  font-size: 30px;
+  text-align: center;
 }
 p{
   text-align: center;
