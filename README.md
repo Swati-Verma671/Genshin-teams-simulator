@@ -7,6 +7,9 @@ This is a random genshin team generator that I created to practice and subsequen
 - If you do not want to choose and instead want the website to choose for you you can simply click on the "Nota" button (None of the above) which will choose any random four characters from the pool of all the playable characters for you.
 - It's understandable that the character chosen might not be available for you. Therefore, you can simply click to change your result to a different character.
 
+## Technologies Used
+ - React.js
+
 ## Plans
 This website will subsequently see many changes as the time goes by as I still have many Ideas for it. So if you have any suggestions please feel free to contact me.
 
