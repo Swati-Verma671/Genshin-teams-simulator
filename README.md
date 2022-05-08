@@ -13,4 +13,4 @@ This is a random genshin team generator that I created to practice and subsequen
 ## Plans
 This website will subsequently see many changes as the time goes by as I still have many Ideas for it. So if you have any suggestions please feel free to contact me.
 
-## Link to the live site: [Here](https://swati-verma671.github.io/Genshin-teams-simulator/)
+## Link to the live site: [Here](https://genshinteamrandomiser.herokuapp.com/)
