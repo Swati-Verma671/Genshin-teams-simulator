@@ -66,7 +66,7 @@ class App extends React.Component{
 
   nota=()=>{
     
-    const items=["Venti","Jean","Sucrose","Kaedehara Kazuha","Xiao","Traveller(Anemo)","Noelle","Ningguang","Zhongli","Yunjin","Albedo","Arataki Itto","Traveller(Geo)","Gorou","Lisa","Beidou","Razor","Raiden Shogun","Yae miko","Keqing","Traveller(Electro)","Kujou Sara","Fischl von luftschloss narfidort","Klee","Diluc","Amber","Xinyan","Yanfei","Xiangling","Hu tao","Thoma","Yoimiya","Bennett","Diona","Aloy","Chongyun","Qiqi","Eula","Ganyu","Rosaria","Shenhe","Kaeya","Kamisato Ayaka","Kokomi","Mona","Tartaglia","Barbara","Xingqiu","Kamisato Ayato"]
+    const items=["Venti","Jean","Sucrose","Kaedehara Kazuha","Xiao","Traveller(Anemo)","Noelle","Ningguang","Zhongli","Yunjin","Albedo","Arataki Itto","Traveller(Geo)","Gorou","Lisa","Beidou","Razor","Raiden Shogun","Yae miko","Keqing","Traveller(Electro)","Kujou Sara","Fischl von luftschloss narfidort","Klee","Diluc","Amber","Xinyan","Yanfei","Xiangling","Hu tao","Thoma","Yoimiya","Bennett","Diona","Aloy","Chongyun","Qiqi","Eula","Ganyu","Rosaria","Shenhe","Kaeya","Kamisato Ayaka","Kokomi","Mona","Tartaglia","Barbara","Xingqiu","Kamisato Ayato","Yelan"]
     var item6 = items[Math.floor(Math.random()*items.length)];
     this.setState({item6})
 

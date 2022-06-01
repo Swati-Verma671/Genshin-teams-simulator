@@ -42,7 +42,8 @@ button{
   font-size: 20px;
   cursor: pointer;
   border-radius: 13px;
-  margin: 50px;
+  margin: 2%;
+  font-family: 'Bebas Neue', cursive;
 }
 .anemo{
   background-color: aquamarine;
@@ -83,4 +84,34 @@ button{
 p{
   text-align: center;
   font-size: 50px;
+}
+@media only screen and (max-width:550px) {
+  .Dashboard{
+    width: 100%;
+  }
+  .navbar{
+    display: block;
+    font-size: 25px;
+    padding: 15px;
+  }
+  .who,.where{
+    text-align: center;
+  }
+  .elements{
+    display: block;
+    text-align: center;
+  }
+  button{
+    width: 50%;
+    font-size: 25px;
+    padding: 5px;
+  }
+  .welcome,.choose{
+    font-size: 27px;
+    padding-top: 2%;
+  }
+  .disclaimer,.p{
+    font-size: 25px;
+    
+  }
 }
