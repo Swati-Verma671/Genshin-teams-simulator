@@ -7,7 +7,7 @@ class App extends React.Component{
   constructor(props){
     super(props)
 
-    this.state = {
+    this.state = { //Initializing the state component
       value:[""],
       count:0,
     }
@@ -18,10 +18,10 @@ class App extends React.Component{
   
   anemo=()=>{
     const items=["Venti","Jean","Sucrose","Kaedehara Kazuha","Xiao","Traveller(Anemo)"]
-    var item0= items[Math.floor(Math.random()*items.length)]
-    this.setState({item0})
-    const count = this.state.count;
-    this.setState({count:count+1})
+    var item0= items[Math.floor(Math.random()*items.length)]//randomly choosing the character
+    this.setState({item0})//updating the setState to re-render the components
+    const count = this.state.count;//adding +1 value to the count
+    this.setState({count:count+1})//subsequently feeding the updated count to the count in setState to re-render the components.
   }
 
   geo=()=>{
@@ -68,7 +68,7 @@ class App extends React.Component{
     
     const items=["Venti","Jean","Sucrose","Kaedehara Kazuha","Xiao","Traveller(Anemo)","Noelle","Ningguang","Zhongli","Yunjin","Albedo","Arataki Itto","Traveller(Geo)","Gorou","Lisa","Beidou","Razor","Raiden Shogun","Yae miko","Keqing","Traveller(Electro)","Kujou Sara","Fischl von luftschloss narfidort","Klee","Diluc","Amber","Xinyan","Yanfei","Xiangling","Hu tao","Thoma","Yoimiya","Bennett","Diona","Aloy","Chongyun","Qiqi","Eula","Ganyu","Rosaria","Shenhe","Kaeya","Kamisato Ayaka","Kokomi","Mona","Tartaglia","Barbara","Xingqiu","Kamisato Ayato","Yelan"]
     var item6 = items[Math.floor(Math.random()*items.length)];
-    this.setState({item6})
+    this.setState({item6})//repeating the same process
 
     
     var item7 = items[Math.floor(Math.random()*items.length)];
@@ -110,12 +110,12 @@ class App extends React.Component{
             <div className='welcome'>Welcome to Genshin Impact teams generator. <br />This app will pick out a random team for you based on the elements you pick.</div>
             <div className='choose'>Choose an element: (If you want it to random then pick Surprise). Click reset to make a new team.</div>
             <div className='elements'>
-              <button className="anemo" onClick={this.anemo}>Anemo</button>
+              <button className="anemo" onClick={this.anemo} >Anemo</button>
               <button className='geo' onClick={this.geo}>Geo</button>
-              <button className='electro' onClick={this.electro}>Electro</button>
+              <button className='electro' onClick={this.electro} >Electro</button>
               <button className='pyro' onClick={this.pyro} >Pyro</button>
               <button className='cryo' onClick={this.cryo} >Cryo</button>
-              <button className='hydro' onClick={this.hydro} >Hydro</button>
+              <button className='hydro' onClick={this.hydro}>Hydro</button>
               <button className='nota' onClick={this.nota} disabled={this.state.count!==0}>Surprise</button>
               <button className='reset' onClick={this.reset} disabled={this.state.count<4}>Reset</button>
               
