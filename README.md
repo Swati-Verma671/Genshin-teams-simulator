@@ -1,6 +1,9 @@
 # Genshin-Teams-Generator
 This is a random genshin team generator that I created to practice and subsequently hone my skills in react and get a better grasp on it. 
 
+## Preview
+![image](ss.png)
+
 ## How it works
 - There are a total of 6 elements (I will add more when dendro comes out) - Hydro, Cryo, Pyro, Geo, Electro and Anemo. 
 - You can click on the buttons of these elements to subsequently add any random character of that particular element. 
@@ -11,7 +14,7 @@ This is a random genshin team generator that I created to practice and subsequen
  - React.js
 
 ## Plans
-This website will subsequently see many changes as the time goes by as I still have many Ideas for it. So if you have any suggestions please feel free to contact me.
+This website will subsequently see many changes as the time goes by as I still have many ideas for it. So if you have any suggestions please feel free to contact me.
 
 ## Link to the live site: [Here](https://genshinteamrandomiser.herokuapp.com/)
 
