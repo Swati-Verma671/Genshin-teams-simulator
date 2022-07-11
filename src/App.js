@@ -17,7 +17,7 @@ class App extends React.Component{
   
   
   anemo=()=>{
-    const items=["Venti","Jean","Sucrose","Kaedehara Kazuha","Xiao","Traveller(Anemo)"]
+    const items=["Venti","Jean","Sucrose","Kaedehara Kazuha","Xiao","Traveller(Anemo)","Shikanoin heizou"]
     var item0= items[Math.floor(Math.random()*items.length)]//randomly choosing the character
     this.setState({item0})//updating the setState to re-render the components
     const count = this.state.count;//adding +1 value to the count
